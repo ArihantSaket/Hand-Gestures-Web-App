@@ -1,0 +1,45 @@
+body
+{
+  color: white;
+  background: purple;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+
+html ::-webkit-scrollbar{
+  width: 2vh;
+}
+
+html ::-webkit-scrollbar-thumb{ 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+html ::-webkit-scrollbar-track{    
+  background: rgba(0, 0, 0, 0.7) url("../Image/Tejas4.jpg");
+}
